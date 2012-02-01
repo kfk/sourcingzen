@@ -1,0 +1,30 @@
+<html>
+<head>
+	<link rel="stylesheet" href="/static/css/style.css" type="text/css"></link>
+	<link href='http://fonts.googleapis.com/css?family=Sonsie+One|Inika' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<img alt="full screen background image" src="/static/images/background/background.jpg" id="full-screen-background-image" /> 
+  	<div id="wrapper">
+		<div id="content">
+			<p class="content_title">Sourcing Zen</p>
+			
+			<hr/>
+			<p class="content_text">
+			Finally a reverse auction platform for strategic sourcing. Let your suppliers deal the lowest price for you!	
+			</p>
+			<hr/></br>
+			<p class="content_small_text">Enter email below to be invited for the beta release</p>
+	
+			<form method="POST" action="/email_submitted">
+				{{email_field}}
+				<input type="image" class="img_button" src="/static/images/icons/submit.png" alt="Submit"/> 	
+			</form>
+
+		</div></br>
+
+		<p class="button"><a class="button_text" href="features">Learn More</a></p>
+		</br><p class="button"><a class="button_text" href="contact">Contact</a></p>
+	</div>
+</body>
+</html>

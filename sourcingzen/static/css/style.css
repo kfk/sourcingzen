@@ -1,0 +1,161 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#full-screen-background-image {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+li{
+	width: auto;
+	min-height: 80px;
+	vertical-align:top;
+	border: 1px;
+        display: inline-block;
+        margin: 5px;
+}
+
+img.floatLeft { 
+    float: left; 
+    margin: 4px; 
+}
+
+#wrapper {
+  position: relative;
+  width: 800px;
+  min-height: 400px;
+  margin: 100px auto;
+  color: #333;
+}
+
+#f_wrapper {
+  position: relative;
+  width: 800px;
+  min-height: 400px;
+  margin: 20px auto;
+  color: #333;
+}
+	
+#content {
+	width:350px;
+	margin:0px auto;
+	text-align:center;
+	text-color:#FFFFFF;
+	padding:15px;
+	border:1px dashed #0000;
+	background-color:#000000;
+	opacity:0.8;
+  	filter:alpha(opacity=80); /* For IE8 and earlier */
+	}
+p.content_title {
+	font-family:"Sosie One", cursive;;
+	font-size:24;
+	font-weight:900;
+	color: #FFFFFF;
+}
+
+p.content_text {
+	font-family:"Sosie One", cursive;
+	font-size:16;
+	color: #FFFFFF;
+}
+
+p.content_small_text {
+	font-family:"Sosie One", cursive;
+	font-style:italic;
+	font-size:12;
+	color: #FFFFFF;
+}
+
+div.row{
+	width: 90%;
+	margin: 0 auto;
+}
+
+input.content_email_input{
+	width:80%;
+}
+
+textarea.contact{
+	width:80%;
+	height:20%;
+}
+
+
+
+#f_content {
+	width:650px;
+	margin:0px auto;
+	text-align:center;
+	text-color:#FFFFFF;
+	padding:15px;
+	border:1px dashed #0000;
+	background-color:#000000;
+	opacity:0.8;
+  	filter:alpha(opacity=80); /* For IE8 and earlier */
+	}
+
+/*Text Formatting*/
+p.title_box {
+	font-family:"Sosie One", cursive;;
+	font-size:16;
+	font-weight:900;
+	color: #009900;
+}
+
+/*Buttons*/
+p.button {
+	font-family:"Sosie One", cursive;;
+	font-size:16;
+	font-weight:900;
+	color: #009900;
+	width:150px;
+	margin:0px auto;
+	text-align:center;
+	padding:15px;
+	border:1px dashed #0000;
+	background-color:#000000;
+	opacity:0.8;
+  	filter:alpha(opacity=80); /* For IE8 and earlier */
+
+}
+
+a.button_text{
+	color:#009900;
+	text-decoration:none;
+}
+
+a.button_text:hover{
+	color:#00FF00;
+}
+
+input.img_button{
+	float:right;
+}
+
+a.button {
+	background: url(/static/images/icons/submit_ico.png) no-repeat 0 0;
+	width: 30px;
+	height: 24px;
+	float:right;	
+	display: block;
+	text-indent: -9999px;
+}
+
+/*Line*/
+hr{
+	width:auto;
+}
+hr.for_lists{
+	width:70%;
+}
